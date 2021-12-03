@@ -1,0 +1,201 @@
+/* signup page css */
+body {
+  margin: 10px;
+}
+
+.img-1 {
+  height: 120%; width: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  .img-1 {
+    height: 130%; width: 100%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-1 {
+    height: 140%; width: 100%;
+    position: relative;
+  }
+}
+
+.container, .login-container{
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+  position: absolute;
+  top: 20px;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+  position: absolute;
+  top: 20px;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+.username, .password {
+  width: 300px; height: 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 50px black;
+}
+
+.container h2, .login-container h2 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-top: 10px;
+  font-style: oblique;
+}
+
+.container h3, .login-container h3{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-top: 5px;
+  font-style: oblique;
+}
+
+@media screen and (min-width: 1024px) {
+  .login-container {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .login-container {
+    position: absolute;
+    top: 20px;
+    left: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .login-container {
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .login-container {
+    position: absolute;
+    top: 20px;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.error {
+  background-color: red;
+  color: white;
+  height: 35px; width: 120px;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.button-1, .button-2, .button-3 {
+  width: 300px; height: 40px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+.link-login {
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+.link-login a {
+  color: beige;
+}
+
+.link-login a:hover {
+  text-decoration: underline;
+}
+
+/* login page css */
+
+.login-container {
+  align-items: center;
+}
+
+#flex-checkbox {
+  display: flex;
+}
+
+#forgotp {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  margin: 3px 0 15px 10px;
+}
+
+.signup {
+  position: absolute;
+  top: 95%;
+  left: 68%;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+ /*homepage css*/
+
+ .welcome {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: rgb(18, 18, 65);
+  text-align: center;
+  font-style: italic;
+}

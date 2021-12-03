@@ -1,0 +1,126 @@
+
+/* forgot password css */
+
+.bg-img {
+    position: relative;
+    width: 100%; height: 100%;
+  }
+
+  @media screen and (min-width: 425px) {
+      .img-1 {
+          position: relative;
+          width: 140%; height: 100%;
+      }
+  }
+  
+  .pcontainer {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .pcontainer {
+        position: absolute;
+        top: 20px;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+  }
+
+
+  .login-link {
+    position: absolute;
+    top: 94%;
+    left: 68%;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .reset-p {
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .forgotp {
+    padding: 20px;
+    border: 1px solid rgb(36, 32, 32);
+    width: 90%;
+    margin-left: 40px;
+  }
+
+  @media screen and (min-width: 425px) {
+    .forgotp {
+        padding: 10px;
+        border: 1px solid rgb(36, 32, 32);
+        width: 70%;
+        margin-left: 5px;
+      }
+  }
+
+  @media screen and (min-width: 375px) {
+    .forgotp {
+        padding: 10px;
+        border: 1px solid rgb(36, 32, 32);
+        width: 70%;
+        margin-left: 2px;
+      }
+  }
+  
+  .forgotp input {
+    margin: 2px 0 0 0;
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+    display: block;
+  }
+  
+  .button-4 {
+    width: 300px; height: 40px;
+    background-color: blue;
+    text-align: center;
+    margin: 10px 0 5px 15%;
+    color: white;
+  }
+
+  @media screen and (min-width: 600px) {
+    .button-4 {
+        width: 200px; height: 40px;
+        background-color: blue;
+        text-align: center;
+        margin: 10px 0 5px 15%;
+        color: white;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .button-4 {
+        width: 100px; height: 40px;
+        background-color: blue;
+        text-align: center;
+        margin: 10px 0 5px 15%;
+        color: white;
+    }
+  }
+
+  @media screen and (min-width: 375px) {
+    .button-4 {
+        width: 100px; height: 40px;
+        background-color: blue;
+        text-align: center;
+        margin: 10px 0 5px 15%;
+        color: white;
+    }
+  }
+
+  .img-1 {
+    height: 100%; width: 100%;
+    position: relative;
+  }
